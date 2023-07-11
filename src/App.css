@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  padding: 0px 0px;
+  margin: 0px;
+}
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items:center;
+  list-style: none;
+
+}
+
+.nav ul li{
+  margin: 2px 20px 2px 5px;
+  padding: 2px 4px;
+}
+.nav ul li a{
+  text-decoration: none;
+}
+.text_input{
+  box-shadow: 10px 10px 20px #61dafb;
+}
