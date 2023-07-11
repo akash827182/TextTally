@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TextTally/static/css/main.796db96f.css",
+    "main.js": "/TextTally/static/js/main.e19dbeef.js",
+    "static/js/787.f055211e.chunk.js": "/TextTally/static/js/787.f055211e.chunk.js",
+    "index.html": "/TextTally/index.html",
+    "main.796db96f.css.map": "/TextTally/static/css/main.796db96f.css.map",
+    "main.e19dbeef.js.map": "/TextTally/static/js/main.e19dbeef.js.map",
+    "787.f055211e.chunk.js.map": "/TextTally/static/js/787.f055211e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.796db96f.css",
+    "static/js/main.e19dbeef.js"
+  ]
+}
