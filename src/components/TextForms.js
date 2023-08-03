@@ -55,7 +55,7 @@ export default function TextForms(props) {
 
 <div className={`container my-3 text-${props.mode==='info'?'dark':'primary'}`}>
   <h4 >Text summary</h4>
-  <p>{text.split("").length} Words and {text.length} Characters</p>
+  <p>{text.split(" ").length} Words and {text.length} Characters</p>
 </div>
   
 </form>
