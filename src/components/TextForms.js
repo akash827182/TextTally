@@ -7,7 +7,7 @@ export default function TextForms(props) {
     
 
     const ToUpperCase = ()=>{
-        // console.log(" toUppercase");
+        
         let newText = text.toUpperCase();
         setText(newText)
     }
