@@ -1,6 +1,7 @@
 
 import React, {useState } from 'react';
 
+
 export default function TextForms(props) {
     const [text, setText] = useState('Enter text here');
     
@@ -39,7 +40,7 @@ export default function TextForms(props) {
   return (
     <div>
     <form>
-    <h6 className="text-center my-3">{props.heading}</h6>
+    <h6 className={`text-center my-3 text-${props.mode==='info'?'dark':'primary'}`}>{props.heading}</h6>
     <div className="form-group text-center">
    
     <textarea className="form-control text_input shadow p-3 mb-5 bg-primary rounded bg-light " id="exampleFormControlTextarea1" value={text} onChange={handleOnChange} rows="8"></textarea>
@@ -52,8 +53,8 @@ export default function TextForms(props) {
   <button type="button" className="btn btn-primary m-1" onClick ={handleExtraSpace} >Clear Space</button>
 </div>
 
-<div className="container my-3">
-  <h4>Text summary</h4>
+<div className={`container my-3 text-${props.mode==='info'?'dark':'primary'}`}>
+  <h4 >Text summary</h4>
   <p>{text.split("").length} Words and {text.length} Characters</p>
 </div>
   

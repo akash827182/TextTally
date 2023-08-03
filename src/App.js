@@ -8,15 +8,15 @@ import React, { useState } from 'react'
 
 
 function App() {
-  const [mode,setMode] = useState('light');
+  const [mode,setMode] = useState('info');
   const toggleMode = ()=>{
-    if(mode==='light'){
+    if(mode==='info'){
       setMode('dark');
       document.body.style.backgroundColor = '#181B1B';
       document.body.style.Color = 'black';
     }
     else{
-      setMode('light');
+      setMode('info');
       document.body.style.backgroundColor = '#fff';
     }
 
