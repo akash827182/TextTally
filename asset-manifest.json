@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TextTally/static/css/main.796db96f.css",
-    "main.js": "/TextTally/static/js/main.0fc56433.js",
-    "static/js/787.f055211e.chunk.js": "/TextTally/static/js/787.f055211e.chunk.js",
+    "main.css": "/TextTally/static/css/main.6858c231.css",
+    "main.js": "/TextTally/static/js/main.83f50272.js",
+    "static/js/787.0f7dc5a1.chunk.js": "/TextTally/static/js/787.0f7dc5a1.chunk.js",
     "index.html": "/TextTally/index.html",
-    "main.796db96f.css.map": "/TextTally/static/css/main.796db96f.css.map",
-    "main.0fc56433.js.map": "/TextTally/static/js/main.0fc56433.js.map",
-    "787.f055211e.chunk.js.map": "/TextTally/static/js/787.f055211e.chunk.js.map"
+    "main.6858c231.css.map": "/TextTally/static/css/main.6858c231.css.map",
+    "main.83f50272.js.map": "/TextTally/static/js/main.83f50272.js.map",
+    "787.0f7dc5a1.chunk.js.map": "/TextTally/static/js/787.0f7dc5a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.796db96f.css",
-    "static/js/main.0fc56433.js"
+    "static/css/main.6858c231.css",
+    "static/js/main.83f50272.js"
   ]
 }
